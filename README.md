@@ -120,6 +120,13 @@ klm_de_assignment/
 ├── README.md               # Project documentation 
 ```
 
+## Config file
+The input parameters can be modified using the config file `input_parameters.json`.
+It has the below 3 input parametes
+1. source_bookings_data_path - The path in which the source files for booking events are stored.
+2. start_date - Starting date range from which the top destinations are calculated.
+3. end_date - Ending date range till which the top destinations are calculated.
+
 ## Scripts Overview
 
 ### 1. `scripts/ingest_airports_data.py`
@@ -149,7 +156,7 @@ This script:
 
 ### 3. `scripts/top_destinations.py`
 This script:
-- Reads the processed bookings and airports data.
+- Reads the processed bookings (only required partitions based on start_date and end_date) and airports data.
 - Performs transformations and aggregations to identify top destinations:
   - Groups data by destination, season, and day of the week.
   - Counts unique passengers for each destination.
