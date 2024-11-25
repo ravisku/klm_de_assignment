@@ -1,6 +1,6 @@
 # KLM Data Engineering Assignment
 
-This repository contains a PySpark-based application designed to process and analyze bookings and airports data. The application is containerized using Docker, making it easy to run locally or scale for production use.
+This repository contains a PySpark-based application designed to process and analyze bookings and airports data. The application is containerized using Docker, making it easy to run locally.
 
 ---
 
@@ -26,7 +26,7 @@ This project demonstrates a data engineering solution for processing bookings an
 
 - Data ingestion and transformation using PySpark.
 - Containerized application for portability.
-- Handles corrupted records gracefully.
+- Handles corrupted json records.
 - Outputs results in Parquet format, partitioned for efficient querying.
 - Configurable input parameters via a JSON file.
 
@@ -34,7 +34,7 @@ This project demonstrates a data engineering solution for processing bookings an
 
 ## Technologies Used
 
-- **PySpark**: For scalable data processing.
+- **PySpark**: For data processing.
 - **Docker**: For containerization.
 - **Python**: Core programming language.
 - **JSON**: Used for configuration and input data format.
@@ -66,8 +66,6 @@ docker build -t klm .
 ```bash
 docker run -v /app -v $(pwd):/app klm
 ```
-
-## Explanation
 
 - `-v $(pwd):/app`: Mounts the current working directory to `/app` in the container, enabling the application to write results locally.
 
