@@ -1,0 +1,29 @@
+destination_country,season,day_of_week,no_of_passengers
+United States,Spring,Monday,133
+United Kingdom,Spring,Sunday,111
+China,Spring,Tuesday,87
+Italy,Spring,Wednesday,80
+United Kingdom,Spring,Friday,68
+United Kingdom,Spring,Thursday,64
+United Kingdom,Spring,Saturday,50
+France,Summer,Saturday,31
+United Kingdom,Summer,Friday,28
+United Kingdom,Summer,Tuesday,21
+United Kingdom,Summer,Wednesday,19
+United Kingdom,Summer,Monday,18
+United Kingdom,Summer,Thursday,14
+Germany,Summer,Sunday,12
+United States,Autumn,Friday,10
+Sweden,Autumn,Thursday,10
+Indonesia,Autumn,Wednesday,10
+Sweden,Winter,Monday,8
+Kenya,Winter,Tuesday,8
+United Kingdom,Autumn,Sunday,7
+United Kingdom,Winter,Friday,7
+United Kingdom,Winter,Saturday,6
+Brazil,Autumn,Monday,5
+Poland,Autumn,Saturday,5
+Thailand,Winter,Sunday,5
+United Kingdom,Autumn,Tuesday,4
+India,Winter,Thursday,4
+Thailand,Winter,Wednesday,4
